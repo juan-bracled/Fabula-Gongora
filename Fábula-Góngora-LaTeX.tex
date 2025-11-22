@@ -7,7 +7,7 @@
 \usepackage[citestyle=authoryear,backend=biber,bibstyle=nccph,url=true]{biblatex}
 \addbibresource{bibliography.bib}
 \title{\huge\textbf{FÁBVLA DE POLIFEMO Y GALATEA}}
-\author{\huge \textsc{Lvis de Góngora}}
+\author{\huge\textsc{\textbf{Lvis de Góngora}}}
 \date{\vspace{60pt} \textsc{Con variantes de la redacción primitiva}\\\fontsize{40}{11}\selectfont{\vfill\LaTeX}}
 %
 \setmainfont{TemporaNR}[RawFeature=onum]
@@ -29,6 +29,7 @@
 \Xnonbreakableafternumber
 \Xinplaceoflemmaseparator{0em}
 \newcommand{\comillas}[1]{«#1»}
+\renewcommand{\thefootnoteA}{}
 %
 \prenotesX{11pt}
 \afterruleX{2pt}
@@ -53,7 +54,7 @@
 			\maketitle
 		}
 		\newpage%
-
+%
 \hskip0pt
 \vfill
 \begin{flushright}
@@ -103,7 +104,7 @@ Se adopta la puntuación propuesta por la edición de \textcite{Alonso1967}.\par
 %
 El \comillas{aparato crítico} es negativo. Se reproducen los errores de {\ch} y, a modo de variantes descartadas, todas las lecciones de {\guno}, la redacción primitiva. Los \emph{lemmata} se colocaron tal cual se editaron para el texto crítico.\par
 
-\section*{\centering \textsc{Bibliografía}}
+\section*{\centering\textsc{Bibliografía}}
 \addcontentsline{toc}{section}{\textsc{Bibliografía}}
 \nocite{*}
 \printbibliography[heading=none]
