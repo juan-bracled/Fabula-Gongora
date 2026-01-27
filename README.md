@@ -1,0 +1,1 @@
+Edición de las "Fábula de Polifemo y Galatea" de Luis de Góngora, con bibliografía crítica. El sistema de normas o estructura bibliográfica utilizada es [NNCPh](https://github.com/juan-bracled/NNCPh-Novae-normae-ad-citationem-philologicam.git), que puede consultar, descargar, utilizar y modificar.
